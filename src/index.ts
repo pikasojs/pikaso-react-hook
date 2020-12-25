@@ -2,7 +2,7 @@ import { useRef, useState, useEffect, RefObject } from 'react'
 
 import Pikaso, { Settings } from 'pikaso'
 
-export function usePikaso(
+export default function usePikaso(
   options: Partial<Settings> = {}
 ): [RefObject<HTMLDivElement>, Pikaso | null] {
   const [instance, setInstance] = useState<Pikaso | null>(null)
@@ -19,5 +19,3 @@ export function usePikaso(
 
   return [ref, instance]
 }
-
-export default usePikaso

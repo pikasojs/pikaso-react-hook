@@ -29,11 +29,11 @@ export function Component() {
     if (!editor) {
       return
     }
-    
+
     editor.shapes.circle.insert({
-      x: 100,
-      y: 100,
-      radius: 20,
+      x: 200,
+      y: 200,
+      radius: 50,
       fill: 'red'
     })
   }, [editor])
@@ -42,6 +42,7 @@ export function Component() {
     <div
       ref={ref}
       style={{
+        background: '#ccc',
         width: '400px',
         height: '400px'
       }}
@@ -49,6 +50,10 @@ export function Component() {
   )
 }
 ```
+
+## Demo
+https://codesandbox.io/s/pikaso-react-hook-vrx3d
+
 
 ## Documentation
 https://github.com/pikasojs/pikaso

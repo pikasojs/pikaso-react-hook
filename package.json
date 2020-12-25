@@ -9,7 +9,7 @@
     "commitlint": "commitlint",
     "test": "jest",
     "coverage": "jest --coverage",
-    "postinstall": "husky install",
+    "_postinstall": "husky install",
     "prepublish": "pinst --disable",
     "postpublish": "pinst --enable",
     "clean": "rimraf cjs && rimraf esm && rimraf umd",
