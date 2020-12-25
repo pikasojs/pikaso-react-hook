@@ -1,0 +1,27 @@
+
+.cache/
+.nyc_output
+coverage/
+dist/*
+!dist/index.html
+node_modules/
+*.log
+lib
+cjs
+esm
+umd
+cypress/videos
+instrumented
+coverage
+api
+
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+pikaso.min.js
