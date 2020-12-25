@@ -1,5 +1,5 @@
 {
-  "name": "use-pikaso",
+  "name": "pikaso-react-hook",
   "version": "1.0.0",
   "description": "Pikaso React Hook",
   "author": "Ramin Mousavi <ramin.mousavy@gmail.com> (http://github.com/raminious)",
@@ -9,7 +9,7 @@
     "commitlint": "commitlint",
     "test": "jest",
     "coverage": "jest --coverage",
-    "_postinstall": "husky install",
+    "postinstall": "husky install",
     "prepublish": "pinst --disable",
     "postpublish": "pinst --enable",
     "clean": "rimraf lib && rimraf esm && rimraf umd",
@@ -78,13 +78,13 @@
     "jsdom": false
   },
   "bugs": {
-    "url": "https://github.com/pikasojs/use-pikaso/issues"
+    "url": "https://github.com/pikasojs/pikaso-react-hook/issues"
   },
-  "homepage": "https://github.com/pikasojs/use-pikaso",
+  "homepage": "https://github.com/pikasojs/pikaso-react-hook",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pikasojs/use-pikaso.git"
+    "url": "git://github.com/pikasojs/pikaso-react-hook.git"
   },
   "types": "esm/index.d.ts",
   "typings": "esm/index.d.ts",

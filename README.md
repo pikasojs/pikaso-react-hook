@@ -2,27 +2,27 @@
   <img src="assets/logo.png" width="150" />
 </div>
 
-# use-pikaso
+# pikaso-react-hook
 React hook for [Pikaso](https://github.com/pikasojs/pikaso)
 
 ![Language](https://badgen.net/badge/icon/typescript?icon=typescript&label=Language)
-![Test, Build and Publish](https://github.com/pikasojs/use-pikaso/workflows/Test,%20Build%20and%20Publish/badge.svg)
-![npm](https://badgen.net/npm/v/use-pikaso)
-![coverage](https://img.shields.io/coveralls/github/pikasojs/use-pikaso)
+![Test, Build and Publish](https://github.com/pikasojs/pikaso-react-hook/workflows/Test,%20Build%20and%20Publish/badge.svg)
+![npm](https://badgen.net/npm/v/pikaso-react-hook)
+![coverage](https://img.shields.io/coveralls/github/pikasojs/pikaso-react-hook)
 
 ## Install   
 
 #### NPM
-`npm install use-pikaso --save` 
+`npm install pikaso-react-hook --save` 
 
 #### Yarn
-`yard add use-pikaso`
+`yard add pikaso-react-hook`
 
 ## Getting Started
 
 ```ts
 import React, { useEffect } from 'react'
-import usePikaso from 'use-pikaso'
+import usePikaso from 'pikaso-react-hook'
 
 export function Component() {
   const [ref, editor] = usePikaso()
