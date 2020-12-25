@@ -1,4 +1,6 @@
-<img src="https://github.com/pikasojs/pikaso/raw/master/assets/logo.svg" width="150" />
+<div align="center">
+  <img src="assets/logo.svg" width="150" />
+</div>
 
 # use-pikaso
 React hook for [Pikaso](https://github.com/pikasojs/pikaso)
