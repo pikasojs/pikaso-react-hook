@@ -54,7 +54,7 @@ export function Component() {
 ```
 
 ## Demo
-https://codesandbox.io/s/pikaso-react-hook-vrx3d
+https://codesandbox.io/s/pikaso-react-hook-example-i0uwg
 
 
 ## Documentation
