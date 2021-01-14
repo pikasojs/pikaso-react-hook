@@ -21,34 +21,34 @@ React hook for [Pikaso](https://github.com/pikasojs/pikaso)
 ## Getting Started
 
 ```ts
-import React, { useEffect } from 'react'
+import React from 'react'
 import usePikaso from 'pikaso-react-hook'
 
 export function Component() {
   const [ref, editor] = usePikaso()
   
- useEffect(() => {
-    if (!editor) {
-      return
-    }
-
+  const createCircle = () => {
     editor.shapes.circle.insert({
       x: 200,
       y: 200,
       radius: 50,
       fill: 'red'
     })
-  }, [editor])
+  }
 
   return (
-    <div
-      ref={ref}
-      style={{
-        background: '#ccc',
-        width: '400px',
-        height: '400px'
-      }}
-    />
+    <>
+      <div
+        ref={ref}
+        style={{
+          background: '#ccc',
+          width: '400px',
+          height: '400px'
+        }}
+      />
+      
+      <button onClick={createCircle}>Create Circle</button>
+    </>
   )
 }
 ```
