@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect, RefObject } from 'react'
 
-import Pikaso, { BaseShapes, RegisterShapesFn, Settings } from 'pikaso'
+import { Pikaso, BaseShapes, RegisterShapesFn, Settings } from 'pikaso'
 
 export default function usePikaso<T extends BaseShapes = BaseShapes>(
   options: Partial<Settings> = {},
