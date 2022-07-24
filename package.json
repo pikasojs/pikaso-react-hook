@@ -16,7 +16,7 @@
     "build": "npm run clean && rollup -c"
   },
   "dependencies": {
-    "pikaso": "*"
+    "pikaso": "2.7.2"
   },
   "peerDependencies": {
     "react": ">=16.8",
