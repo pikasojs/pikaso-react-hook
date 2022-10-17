@@ -9,6 +9,7 @@ React hook for [Pikaso](https://github.com/pikasojs/pikaso)
 ![Test, Build and Publish](https://github.com/pikasojs/pikaso-react-hook/workflows/Test,%20Build%20and%20Publish/badge.svg)
 ![npm](https://badgen.net/npm/v/pikaso-react-hook)
 ![coverage](https://img.shields.io/coveralls/github/pikasojs/pikaso-react-hook)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpikasojs%2Fpikaso-react-hook.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpikasojs%2Fpikaso-react-hook?ref=badge_shield)
 
 ## Install   
 
@@ -59,3 +60,7 @@ https://codesandbox.io/s/pikaso-react-hook-example-i0uwg
 
 ## Documentation
 https://github.com/pikasojs/pikaso
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpikasojs%2Fpikaso-react-hook.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpikasojs%2Fpikaso-react-hook?ref=badge_large)
